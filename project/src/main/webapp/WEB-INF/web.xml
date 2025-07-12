@@ -1,4 +1,0 @@
-/*The deployment descriptor for the web application.
-//This configuration file maps the Servlets (LoginServlet and RegisterServlet) to their respective URL patterns,
-/allowing the web server to direct incoming requests to the correct servlet.*/
-<?xml version="1.0" encoding="UTF-8"?>
