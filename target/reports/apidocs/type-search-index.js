@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.bc.wellness.controller","l":"LoginServlet"},{"p":"com.bc.wellness.controller","l":"LogoutServlet"},{"p":"com.bc.wellness.controller","l":"RegisterServlet"},{"p":"com.bc.wellness.model","l":"User"},{"p":"com.bc.wellness.dao","l":"UserDAO"}];updateSearchResults();

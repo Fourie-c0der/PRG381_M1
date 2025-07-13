@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.bc.wellness.controller"},{"l":"com.bc.wellness.dao"},{"l":"com.bc.wellness.model"}];updateSearchResults();

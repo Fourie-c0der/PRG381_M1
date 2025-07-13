@@ -1,0 +1,50 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Huis PC/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar;C:/Users/Huis PC/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Huis PC/Documents/PRG381_M1/src/main/java;C:/Users/Huis PC/Documents/PRG381_M1/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Huis PC/Documents/PRG381_M1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BC Student Wellness Management System 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Huis PC/Documents/PRG381_M1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'BC Student Wellness Management System 1.0-SNAPSHOT API'
+com.bc.wellness.controller
+com.bc.wellness.dao
+com.bc.wellness.model
+C:\Users\Huis PC\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar = 1752426629413
+C:\Users\Huis PC\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar = 1752426629625
+C:\Users\Huis PC\Documents\PRG381_M1\src\main\java = 1752424164554
+C:\Users\Huis PC\Documents\PRG381_M1\target\generated-sources\annotations = 1752426633366
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\allclasses-index.html = 1752426652922
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\allpackages-index.html = 1752426652927
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\element-list = 1752426652787
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\help-doc.html = 1752426652973
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\index-all.html = 1752426652957
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\index.html = 1752426652902
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\member-search-index.js = 1752426652936
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\module-search-index.js = 1752426652930
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\overview-summary.html = 1752426652964
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\overview-tree.html = 1752426652895
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\package-search-index.js = 1752426652932
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\search.html = 1752426652961
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\serialized-form.html = 1752426652839
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\tag-search-index.js = 1752426652938
+C:\Users\Huis PC\Documents\PRG381_M1\target\reports\apidocs\type-search-index.js = 1752426652934

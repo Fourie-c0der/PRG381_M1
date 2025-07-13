@@ -1,0 +1,5 @@
+com\bc\wellness\controller\LogoutServlet.class
+com\bc\wellness\dao\UserDAO.class
+com\bc\wellness\model\User.class
+com\bc\wellness\controller\LoginServlet.class
+com\bc\wellness\controller\RegisterServlet.class
