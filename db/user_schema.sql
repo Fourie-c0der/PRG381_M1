@@ -16,6 +16,6 @@ CREATE TABLE IF NOT EXISTS Students(--create a Students table in PostgreSQL
     password VARCHAR(255) NOT NULL
 );
 --Adding an index on the student number column for faster lookup
-CREATE INDEX IF NOT EXISTS idx_users_student_number ON users (student_number);
+CREATE INDEX IF NOT EXISTS idx_users_student_number ON Students (student_number);
 --Adding an index on the email column for faster lookup as well
-CREATE INDEX IF NOT EXISTS idx_users_email ON users (email);
+CREATE INDEX IF NOT EXISTS idx_users_email ON Students (email);
