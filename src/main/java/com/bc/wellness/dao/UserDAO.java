@@ -14,7 +14,7 @@ public class UserDAO {
     private final String dbPassword = "ProgrammerBliss";
 
     public boolean registerUser(User user) throws SQLException {
-        String sql = "INSERT INTO users (student_number, name, surname, email, phone, password) VALUES (?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO Students (student_number, name, surname, email, phone, password) VALUES (?, ?, ?, ?, ?, ?)";
         try (Connection conn = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             
@@ -31,7 +31,7 @@ public class UserDAO {
     }
 
     public boolean userExists(String email, String studentNumber) throws SQLException {
-        String sql = "SELECT 1 FROM users WHERE email = ? OR student_number = ?";
+        String sql = "SELECT 1 FROM Students WHERE email = ? OR student_number = ?";
         try (Connection conn = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, email);
@@ -43,7 +43,7 @@ public class UserDAO {
     }
 
     public User validateUser(String email, String password) throws SQLException {
-        String sql = "SELECT * FROM users WHERE email = ? AND password = ?";
+        String sql = "SELECT * FROM Students WHERE email = ? AND password = ?";
         try (Connection conn = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, email);
