@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS Students(--create a Students table in PostgreSQL
     student_number VARCHAR(50) PRIMARY KEY UNIQUE NOT NULL,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    phone VARCHAR(10),
+    phone VARCHAR(13),
     password VARCHAR(255) NOT NULL
 );
 --Adding an index on the student number column for faster lookup
